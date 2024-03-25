@@ -1,0 +1,11 @@
+framework module AKFaceTecSwift {
+  umbrella header "AKFaceTecSwift.h"
+  export *
+
+  module * { export * }
+}
+
+module AKFaceTecSwift.Swift {
+  header "AKFaceTecSwift-Swift.h"
+  requires objc
+}
