@@ -1,5 +1,5 @@
 # AKFaceTecSDK *by Autentikar*
-## version 1.0.2 :rocket:
+## version 1.0.3 :rocket:
 
 Autentikar FaceTec Recognition SDK.
 
