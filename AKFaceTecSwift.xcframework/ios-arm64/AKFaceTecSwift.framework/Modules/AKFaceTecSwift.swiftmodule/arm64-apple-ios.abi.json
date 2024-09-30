@@ -1,0 +1,2196 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AKFaceTecSwift",
+    "printedName": "AKFaceTecSwift",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AKFaceTec",
+        "printedName": "AKFaceTec",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "faceTecCustomization",
+            "printedName": "faceTecCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceTecCustomization",
+                "printedName": "FaceTecSDK.FaceTecCustomization",
+                "usr": "c:objc(cs)FaceTecCustomization"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cpy)faceTecCustomization",
+            "mangledName": "$s14AKFaceTecSwift0aB0C04faceB13CustomizationSo04FacebE0CvpZ",
+            "moduleName": "AKFaceTecSwift",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceTecCustomization",
+                    "printedName": "FaceTecSDK.FaceTecCustomization",
+                    "usr": "c:objc(cs)FaceTecCustomization"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cm)faceTecCustomization",
+                "mangledName": "$s14AKFaceTecSwift0aB0C04faceB13CustomizationSo04FacebE0CvgZ",
+                "moduleName": "AKFaceTecSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceTecCustomization",
+                    "printedName": "FaceTecSDK.FaceTecCustomization",
+                    "usr": "c:objc(cs)FaceTecCustomization"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cm)setFaceTecCustomization:",
+                "mangledName": "$s14AKFaceTecSwift0aB0C04faceB13CustomizationSo04FacebE0CvsZ",
+                "moduleName": "AKFaceTecSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB0C04faceB13CustomizationSo04FacebE0CvMZ",
+                "mangledName": "$s14AKFaceTecSwift0aB0C04faceB13CustomizationSo04FacebE0CvMZ",
+                "moduleName": "AKFaceTecSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceTecLowLightCustomization",
+            "printedName": "faceTecLowLightCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceTecCustomization",
+                "printedName": "FaceTecSDK.FaceTecCustomization",
+                "usr": "c:objc(cs)FaceTecCustomization"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cpy)faceTecLowLightCustomization",
+            "mangledName": "$s14AKFaceTecSwift0aB0C04faceB21LowLightCustomizationSo04FacebG0CvpZ",
+            "moduleName": "AKFaceTecSwift",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceTecCustomization",
+                    "printedName": "FaceTecSDK.FaceTecCustomization",
+                    "usr": "c:objc(cs)FaceTecCustomization"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cm)faceTecLowLightCustomization",
+                "mangledName": "$s14AKFaceTecSwift0aB0C04faceB21LowLightCustomizationSo04FacebG0CvgZ",
+                "moduleName": "AKFaceTecSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceTecCustomization",
+                    "printedName": "FaceTecSDK.FaceTecCustomization",
+                    "usr": "c:objc(cs)FaceTecCustomization"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cm)setFaceTecLowLightCustomization:",
+                "mangledName": "$s14AKFaceTecSwift0aB0C04faceB21LowLightCustomizationSo04FacebG0CvsZ",
+                "moduleName": "AKFaceTecSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB0C04faceB21LowLightCustomizationSo04FacebG0CvMZ",
+                "mangledName": "$s14AKFaceTecSwift0aB0C04faceB21LowLightCustomizationSo04FacebG0CvMZ",
+                "moduleName": "AKFaceTecSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomization",
+            "printedName": "setCustomization(customization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AKFaceTecCustomization",
+                "printedName": "AKFaceTecSwift.AKFaceTecCustomization",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cm)setCustomizationWithCustomization:",
+            "mangledName": "$s14AKFaceTecSwift0aB0C16setCustomization13customizationyAA0abE0C_tFZ",
+            "moduleName": "AKFaceTecSwift",
+            "static": true,
+            "objc_name": "setCustomizationWithCustomization:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProtocol",
+            "printedName": "getProtocol(step:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AKStepSharedRouterProtocol",
+                "printedName": "any AKCoreSwift.AKStepSharedRouterProtocol",
+                "usr": "c:@M@AKCoreSwift@objc(pl)AKStepSharedRouterProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AKStepType",
+                "printedName": "AKCoreSwift.AKStepType",
+                "usr": "c:@M@AKCoreSwift@E@AKStepType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(cm)getProtocolWithStep:",
+            "mangledName": "$s14AKFaceTecSwift0aB0C11getProtocol4step06AKCoreC0018AKStepSharedRouterE0_pAF0H4TypeO_tFZ",
+            "moduleName": "AKFaceTecSwift",
+            "static": true,
+            "objc_name": "getProtocolWithStep:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AKFaceTec",
+                "printedName": "AKFaceTecSwift.AKFaceTec",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec(im)init",
+            "mangledName": "$s14AKFaceTecSwift0aB0CACycfc",
+            "moduleName": "AKFaceTecSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTec",
+        "mangledName": "$s14AKFaceTecSwift0aB0C",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AKFaceTecCustomization",
+        "printedName": "AKFaceTecCustomization",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AKFaceTecCustomization",
+                "printedName": "AKFaceTecSwift.AKFaceTecCustomization",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)init",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationCACycfc",
+            "moduleName": "AKFaceTecSwift",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "showLogo",
+            "printedName": "showLogo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)showLogo",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC8showLogoSbvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)showLogo",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC8showLogoSbvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setShowLogo:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC8showLogoSbvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC8showLogoSbvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC8showLogoSbvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)logo",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4logoSo7UIImageCvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)logo",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4logoSo7UIImageCvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setLogo:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4logoSo7UIImageCvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC4logoSo7UIImageCvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4logoSo7UIImageCvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)backgroundColor",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundColorSo7UIColorCvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)backgroundColor",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundColorSo7UIColorCvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setBackgroundColor:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundColorSo7UIColorCvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC15backgroundColorSo7UIColorCvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundColorSo7UIColorCvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showBackgroundImage",
+            "printedName": "showBackgroundImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)showBackgroundImage",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC19showBackgroundImageSbvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)showBackgroundImage",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC19showBackgroundImageSbvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setShowBackgroundImage:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC19showBackgroundImageSbvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC19showBackgroundImageSbvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC19showBackgroundImageSbvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundImage",
+            "printedName": "backgroundImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)backgroundImage",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundImageSo7UIImageCvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)backgroundImage",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundImageSo7UIImageCvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setBackgroundImage:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundImageSo7UIImageCvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC15backgroundImageSo7UIImageCvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC15backgroundImageSo7UIImageCvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textColor",
+            "printedName": "textColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)textColor",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC9textColorSo7UIColorCvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)textColor",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC9textColorSo7UIColorCvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setTextColor:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC9textColorSo7UIColorCvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC9textColorSo7UIColorCvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC9textColorSo7UIColorCvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityViewColor",
+            "printedName": "activityViewColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)activityViewColor",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC17activityViewColorSo7UIColorCvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)activityViewColor",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC17activityViewColorSo7UIColorCvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setActivityViewColor:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC17activityViewColorSo7UIColorCvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC17activityViewColorSo7UIColorCvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC17activityViewColorSo7UIColorCvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customFont",
+            "printedName": "customFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)customFont",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC10customFontSo6UIFontCSgvp",
+            "moduleName": "AKFaceTecSwift",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)customFont",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC10customFontSo6UIFontCSgvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setCustomFont:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC10customFontSo6UIFontCSgvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC10customFontSo6UIFontCSgvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC10customFontSo6UIFontCSgvM",
+                "moduleName": "AKFaceTecSwift",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)font",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4fontSo6UIFontCSgvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)font",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4fontSo6UIFontCSgvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setFont:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4fontSo6UIFontCSgvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC4fontSo6UIFontCSgvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC4fontSo6UIFontCSgvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundleForLocalizableString",
+            "printedName": "bundleForLocalizableString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)bundleForLocalizableString",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)bundleForLocalizableString",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setBundleForLocalizableString:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundleForFaceTecString",
+            "printedName": "bundleForFaceTecString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(py)bundleForFaceTecString",
+            "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC013bundleForFaceB6StringSo8NSBundleCSgvp",
+            "moduleName": "AKFaceTecSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)bundleForFaceTecString",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC013bundleForFaceB6StringSo8NSBundleCSgvg",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization(im)setBundleForFaceTecString:",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC013bundleForFaceB6StringSo8NSBundleCSgvs",
+                "moduleName": "AKFaceTecSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AKFaceTecSwift0aB13CustomizationC013bundleForFaceB6StringSo8NSBundleCSgvM",
+                "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC013bundleForFaceB6StringSo8NSBundleCSgvM",
+                "moduleName": "AKFaceTecSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AKFaceTecSwift@objc(cs)AKFaceTecCustomization",
+        "mangledName": "$s14AKFaceTecSwift0aB13CustomizationC",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "AKCoreSwift",
+        "printedName": "AKCoreSwift",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "AKFaceTecSwift"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/PhotoIDScanProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 600,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/PhotoIDScanProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDPresenter.swift",
+      "kind": "Dictionary",
+      "offset": 386,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 763,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 21,
+      "value": "\"StartingFaceCapture\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1218,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1509,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/FaceCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1524,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/LivenessCheckProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 632,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceCapture\/LivenessCheckProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 660,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Util\/Customization\/AKFaceTecCustomization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 281,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Util\/Customization\/AKFaceTecCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 33,
+      "value": "\"ak_face_capture_autentikar_dark\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Util\/Customization\/AKFaceTecCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Util\/Customization\/AKFaceTecCustomization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1051,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Util\/Customization\/AKFaceTecCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Util\/Customization\/AKFaceTecCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 1811,
+      "length": 9,
+      "value": "\"#E84E1A\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 754,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1095,
+      "length": 21,
+      "value": "\"StartingCardCapture\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1217,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1512,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKFaceTecSwift\/AKFaceTecSwift\/Modules\/FaceTecCardID\/FaceTecCardIDViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Library\/Developer\/Xcode\/DerivedData\/AKFaceTecSwift-dkwhviuxdscujgdxdvudcpobvajg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AKFaceTecSwift\/IntermediateBuildFilesPath\/AKFaceTecSwift.build\/Release-iphoneos\/AKFaceTecSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 33,
+      "value": "\"ak_face_capture_autentikar_dark\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Library\/Developer\/Xcode\/DerivedData\/AKFaceTecSwift-dkwhviuxdscujgdxdvudcpobvajg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AKFaceTecSwift\/IntermediateBuildFilesPath\/AKFaceTecSwift.build\/Release-iphoneos\/AKFaceTecSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 20,
+      "value": "\"ak_sdk_face_camera\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Library\/Developer\/Xcode\/DerivedData\/AKFaceTecSwift-dkwhviuxdscujgdxdvudcpobvajg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AKFaceTecSwift\/IntermediateBuildFilesPath\/AKFaceTecSwift.build\/Release-iphoneos\/AKFaceTecSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 29,
+      "value": "\"ak_sdk_face_cancel_liveness\""
+    }
+  ]
+}
