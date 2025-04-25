@@ -24,6 +24,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AKFaceTecSwift",
-            path: "AKFaceTecSwift.xcframework")
+            path: "AKFaceTecSwift.xcframework"),
+            condition: .when(platforms: [.iOS])
     ]
 )
